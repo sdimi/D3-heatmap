@@ -9,7 +9,7 @@ var margin = { top: 50, right: 0, bottom: 100, left: 60 },
           eps5= ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11','12', '13'];
 
 
-      d3.tsv("https://docs.google.com/spreadsheets/d/127ZNhVwXx_SHzwFScNfeDYnwelbhRRgeDsZtCK0tXFo/export?gid=1471066158&format=tsv",
+      d3.tsv("https://docs.google.com/spreadsheet/pub?key=0AvM8BpEtPDeHdHRQT0QzRTV1ZzAyOUplNjU5XzdTdXc&single=true&gid=0&output=txt",
         function(d) {
          // var strings = d3.tsv.parse(string);
           return {
