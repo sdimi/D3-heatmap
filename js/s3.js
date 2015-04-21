@@ -10,7 +10,7 @@ var margin = { top: 50, right: 0, bottom: 100, left: 60 },
 
 
 
-      d3.tsv("https://docs.google.com/spreadsheet/pub?key=0AvM8BpEtPDeHdDlXSV9jdVFPMDVULW94VF9wNEhsaFE&single=true&gid=0&output=txt",
+      d3.csv("https://docs.google.com/spreadsheets/d/1OC41FGNg_Neo4DtxYV4xXQLDR9ZjT9z2uT6XTgZCS5o/export?format=csv&id=1OC41FGNg_Neo4DtxYV4xXQLDR9ZjT9z2uT6XTgZCS5o&gid=0",
         function(d) {
          // var strings = d3.tsv.parse(string);
           return {
