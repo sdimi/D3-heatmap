@@ -9,7 +9,7 @@ var margin = { top: 50, right: 0, bottom: 100, left: 60 },
           eps2 = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11','12', '13','14','15','16','17', '18', '19', '20', '21', '22', '23', '24'];
 
 
-      d3.csv("http://snf-499555.vm.okeanos.grnet.gr/assets/season2.csv",
+      d3.csv("http://communitypoprefs.com/data/season2.csv",
         function(d) {
          // var strings = d3.tsv.parse(string);
           return {
