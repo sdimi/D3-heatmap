@@ -9,7 +9,7 @@ var margin = { top: 50, right: 0, bottom: 100, left: 60 },
           eps1 = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11','12', '13','14','15','16','17', '18', '19', '20', '21', '22', '23', '24','25'];
 
 
-      d3.tsv("https://docs.google.com/spreadsheet/pub?key=0AvM8BpEtPDeHdDk4SmZZRG1ZaUd4bW85ajVmMS04dVE&single=true&gid=6&output=txt",
+       d3.csv("http://communitypoprefs.com/data/season1.csv",
         function(d) {
          // var strings = d3.tsv.parse(string);
           return {
