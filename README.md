@@ -2,5 +2,5 @@
 
 ![PICTURE](https://github.com/sdimi/D3-heatmap/blob/master/community.gif)
 
-###Use
+## Use
 Working code [here](https://github.com/sdimi/D3-heatmap/blob/gh-pages/js/s1.js).
