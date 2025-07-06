@@ -10,7 +10,7 @@ var margin = { top: 50, right: 0, bottom: 100, left: 60 },
 
 
 
-      d3.csv("http://communitypoprefs.com/data/season3.csv",
+      d3.csv("./data/season3.csv",
         function(d) {
          // var strings = d3.tsv.parse(string);
           return {
